@@ -1,7 +1,7 @@
 {
   "name": "hadera-backend",
   "version": "1.0.0",
-  "description": "Backend API for HADÉRA marketplace",
+  "description": "Backend API for HADERA marketplace",
   "main": "src/server.js",
   "scripts": {
     "dev": "nodemon src/server.js",
@@ -23,7 +23,8 @@
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.10.2",
     "multer": "^2.4.0",
-    "resend": "^6.29.0"
+    "resend": "^6.28.1",
+    "streamifier": "^0.1.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
